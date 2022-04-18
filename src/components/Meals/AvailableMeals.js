@@ -39,6 +39,7 @@ const AvailableMeals = () => {
             return (
               <MealItem
                 key={id}
+                id={id}
                 name={name}
                 description={description}
                 price={price}
